@@ -20,6 +20,6 @@ jobs:
       - name: Install Dependencies
         run: yarn
       - name: Publish package
-        run: yarn publish -access restricted
+        run: yarn publish --access restricted
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
