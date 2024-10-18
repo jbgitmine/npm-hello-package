@@ -1,5 +1,5 @@
 {
-  "name": "npm-hello-package",
+  "name": "@jbgitmine/npm-hello-package",
   "version": "1.0.0",
   "description": "",
   "type": "module",
