@@ -2,6 +2,6 @@ const main = () => {
     console.info("OK Main");
 }
 
-module.exports = {
+export const mainService = {
     main: main
 }
